@@ -1,0 +1,118 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CrossAudit terminal session typing itself out: generate, audit, pass">
+  <defs>
+    <clipPath id="c1"><rect class="tw t1" x="28" y="56" height="24" width="0"/></clipPath>
+    <clipPath id="c2"><rect class="tw t2" x="28" y="84" height="24" width="0"/></clipPath>
+    <clipPath id="c3"><rect class="tw t3" x="28" y="112" height="24" width="0"/></clipPath>
+    <clipPath id="c8"><rect class="tw t8" x="28" y="204" height="24" width="0"/></clipPath>
+    <style>
+      .win { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+      .bar { fill: #161b22; }
+      .t { font: 500 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; }
+      .prompt { fill: #3fb950; }
+      .cmd { fill: #e6edf3; }
+      .claude { fill: #bc8cff; }
+      .auditor { fill: #58a6ff; }
+      .dim { fill: #8b949e; }
+      .ok { fill: #3fb950; }
+      .pass { font: 700 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; fill: #3fb950; }
+
+      /* ============ 16s loop ============
+         2-12%   line 1 types out
+         16-26%  line 2 types out
+         28-38%  line 3 types out
+         42-56%  audit checks tick in
+         60-70%  PASS line types out
+         74%     fresh prompt + blinking cursor
+         98%     screen clears, loop restarts   */
+
+      .tw { animation-duration: 16s; animation-iteration-count: infinite; animation-timing-function: linear; }
+      .t1 { animation-name: t1; }
+      .t2 { animation-name: t2; }
+      .t3 { animation-name: t3; }
+      .t8 { animation-name: t8; }
+      @keyframes t1 { 0%,2% { width: 0; animation-timing-function: steps(52); } 12%,96% { width: 540px; } 98%,100% { width: 0; } }
+      @keyframes t2 { 0%,16% { width: 0; animation-timing-function: steps(66); } 26%,96% { width: 620px; } 98%,100% { width: 0; } }
+      @keyframes t3 { 0%,28% { width: 0; animation-timing-function: steps(48); } 38%,96% { width: 440px; } 98%,100% { width: 0; } }
+      @keyframes t8 { 0%,60% { width: 0; animation-timing-function: steps(44); } 70%,96% { width: 420px; } 98%,100% { width: 0; } }
+
+      .fd { opacity: 0; animation-duration: 16s; animation-iteration-count: infinite; animation-timing-function: linear; }
+      .s4 { animation-name: r4; } @keyframes r4 { 0%,42% {opacity:0} 44%,96% {opacity:1} 98%,100% {opacity:0} }
+      .s5 { animation-name: r5; } @keyframes r5 { 0%,46% {opacity:0} 48%,96% {opacity:1} 98%,100% {opacity:0} }
+      .s6 { animation-name: r6; } @keyframes r6 { 0%,50% {opacity:0} 52%,96% {opacity:1} 98%,100% {opacity:0} }
+      .s7 { animation-name: r7; } @keyframes r7 { 0%,54% {opacity:0} 56%,96% {opacity:1} 98%,100% {opacity:0} }
+      .s9 { animation-name: r9; } @keyframes r9 { 0%,74% {opacity:0} 76%,96% {opacity:1} 98%,100% {opacity:0} }
+
+      /* typing caret that hops line to line while text types */
+      .caret { animation: caret 16s linear infinite, blink .6s steps(1) infinite; }
+      @keyframes caret {
+        0%,2%   { transform: translate(0, 0); opacity: 1; }
+        12%     { transform: translate(470px, 0); opacity: 1; }
+        14%,16% { transform: translate(0, 28px); opacity: 1; }
+        26%     { transform: translate(555px, 28px); opacity: 1; }
+        28%     { transform: translate(0, 56px); opacity: 1; }
+        38%     { transform: translate(370px, 56px); opacity: 1; }
+        40%,58% { transform: translate(370px, 56px); opacity: 0; }
+        60%     { transform: translate(0, 148px); opacity: 1; }
+        70%     { transform: translate(355px, 148px); opacity: 1; }
+        72%,100% { opacity: 0; }
+      }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+
+      /* audit scanline sweeps while checks tick in */
+      .scanline { animation: scan 16s linear infinite; }
+      @keyframes scan {
+        0%,40% { transform: translateY(0); opacity: 0; }
+        42% { opacity: .6; }
+        56% { transform: translateY(80px); opacity: .6; }
+        58%,100% { transform: translateY(80px); opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- window chrome -->
+  <rect x="1" y="1" width="898" height="298" rx="12" class="win"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" class="bar"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="26" text-anchor="middle" class="t dim">crossaudit — cross-vendor AI work loop</text>
+
+  <!-- session -->
+  <g class="t">
+    <g clip-path="url(#c1)">
+      <text x="28" y="74"><tspan class="prompt">$</tspan> <tspan class="cmd">crossaudit run --goal "screen perovskite candidates"</tspan></text>
+    </g>
+    <g clip-path="url(#c2)">
+      <text x="28" y="102"><tspan class="claude">[vendor A]</tspan> <tspan class="cmd">generating…</tspan> <tspan class="dim">128 candidate structures → committed to ledger</tspan></text>
+    </g>
+    <g clip-path="url(#c3)">
+      <text x="28" y="130"><tspan class="auditor">[vendor B]</tspan> <tspan class="cmd">independent audit of committed result…</tspan></text>
+    </g>
+    <g class="fd s4">
+      <text x="52" y="160"><tspan class="ok">✓</tspan> <tspan class="dim">data integrity</tspan></text>
+    </g>
+    <g class="fd s5">
+      <text x="330" y="160"><tspan class="ok">✓</tspan> <tspan class="dim">method reproducible</tspan></text>
+    </g>
+    <g class="fd s6">
+      <text x="52" y="188"><tspan class="ok">✓</tspan> <tspan class="dim">receipts cryptographically bound</tspan></text>
+    </g>
+    <g class="fd s7">
+      <text x="330" y="188"><tspan class="ok">✓</tspan> <tspan class="dim">ledger consistent</tspan></text>
+    </g>
+    <g clip-path="url(#c8)">
+      <text x="28" y="222"><tspan class="pass">AUDIT: PASS</tspan> <tspan class="dim">· receipt c52c4df sealed in git</tspan></text>
+    </g>
+    <g class="fd s9">
+      <text x="28" y="258"><tspan class="prompt">$</tspan></text>
+      <rect x="46" y="245" width="9" height="17" fill="#e6edf3" class="cursor"/>
+    </g>
+  </g>
+
+  <!-- hopping typing caret -->
+  <rect x="36" y="61" width="9" height="17" fill="#e6edf3" class="caret"/>
+
+  <!-- audit scanline -->
+  <rect x="20" y="146" width="860" height="2" fill="#58a6ff" opacity="0" class="scanline"/>
+</svg>
