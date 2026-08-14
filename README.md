@@ -30,27 +30,9 @@
 
 ## ⭐ Flagship Projects
 
-<div align="center">
-
-<a href="https://github.com/dongzhaohe321418-lab/crossaudit_v4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dongzhaohe321418-lab&repo=crossaudit_v4&theme=tokyonight&hide_border=true&description_lines_count=2" alt="crossaudit_v4"/>
-</a>
-<a href="https://github.com/dongzhaohe321418-lab/crossaudit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dongzhaohe321418-lab&repo=crossaudit&theme=tokyonight&hide_border=true&description_lines_count=2" alt="crossaudit"/>
-</a>
-
-<a href="https://github.com/dongzhaohe321418-lab/labscope">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dongzhaohe321418-lab&repo=labscope&theme=tokyonight&hide_border=true&description_lines_count=2" alt="labscope"/>
-</a>
-<a href="https://github.com/dongzhaohe321418-lab/materials-simulation-handbook">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dongzhaohe321418-lab&repo=materials-simulation-handbook&theme=tokyonight&hide_border=true&description_lines_count=2" alt="materials-simulation-handbook"/>
-</a>
-
-<a href="https://github.com/dongzhaohe321418-lab/programming-handbook">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dongzhaohe321418-lab&repo=programming-handbook&theme=tokyonight&hide_border=true&description_lines_count=2" alt="programming-handbook"/>
-</a>
-
-</div>
+<p align="center">
+  <img src="assets/flagships.svg" width="100%" alt="Flagship repos: crossaudit_v4, crossaudit, labscope, materials-simulation-handbook, programming-handbook"/>
+</p>
 
 | | Project | Why it matters |
 |---|---------|----------------|
@@ -96,20 +78,9 @@
 
 ## 📊 Stats
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dongzhaohe321418-lab&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="165" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dongzhaohe321418-lab&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=dongzhaohe321418-lab&theme=tokyonight&hide_border=true" alt="streak"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=dongzhaohe321418-lab&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="trophies"/>
-
-</div>
+<p align="center">
+  <img src="github-metrics.svg" width="100%" alt="GitHub metrics — generated daily in this repo, no external services"/>
+</p>
 
 ---
 
