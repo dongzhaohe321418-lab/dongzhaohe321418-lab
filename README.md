@@ -16,7 +16,7 @@
 
 <div align="center">
 
-*↑ [CrossAudit](https://github.com/dongzhaohe321418-lab/crossaudit_v4) — one model works, a different vendor's model audits, every claim ledgered in Git.*
+*↑ [CrossAudit](https://github.com/dongzhaohe321418-lab/crossaudit-app) — one model works, a different vendor's model audits, every claim ledgered in Git.*
 
 </div>
 
@@ -30,7 +30,8 @@
 
 <div align="center">
 
-`cd` [crossaudit_v4](https://github.com/dongzhaohe321418-lab/crossaudit_v4) · [crossaudit](https://github.com/dongzhaohe321418-lab/crossaudit) · [labscope](https://github.com/dongzhaohe321418-lab/labscope) · [materials-simulation-handbook](https://github.com/dongzhaohe321418-lab/materials-simulation-handbook) · [programming-handbook](https://github.com/dongzhaohe321418-lab/programming-handbook) · [all repos →](https://github.com/dongzhaohe321418-lab?tab=repositories)
+`cd` [crossaudit-app](https://github.com/dongzhaohe321418-lab/crossaudit-app) · [crossaudit_v4](https://github.com/dongzhaohe321418-lab/crossaudit_v4) · [crossaudit](https://github.com/dongzhaohe321418-lab/crossaudit) · [zemax-mcp](https://github.com/dongzhaohe321418-lab/zemax-mcp) · [nmr-ssl](https://github.com/dongzhaohe321418-lab/nmr-ssl) · [xrd-ssl](https://github.com/dongzhaohe321418-lab/xrd-ssl) · [perovskite-screening](https://github.com/dongzhaohe321418-lab/perovskite-screening) · [labscope](https://github.com/dongzhaohe321418-lab/labscope)
+[materials-simulation-handbook](https://github.com/dongzhaohe321418-lab/materials-simulation-handbook) · [programming-handbook](https://github.com/dongzhaohe321418-lab/programming-handbook) · [matsci-env](https://github.com/dongzhaohe321418-lab/matsci-env) · [photo-portfolio](https://github.com/dongzhaohe321418-lab/photo-portfolio) · [all repos →](https://github.com/dongzhaohe321418-lab?tab=repositories)
 
 </div>
 
