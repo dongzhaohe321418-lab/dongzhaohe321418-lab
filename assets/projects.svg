@@ -1,0 +1,68 @@
+<svg width="900" height="310" viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ls ~/projects: crossaudit_v4, crossaudit, labscope, materials-simulation-handbook, programming-handbook">
+  <defs>
+    <clipPath id="p1"><rect class="tw p1" x="28" y="52" height="24" width="0"/></clipPath>
+    <style>
+      .win { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+      .bar { fill: #161b22; }
+      .t { font: 500 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; }
+      .prompt { fill: #3fb950; }
+      .cmd { fill: #e6edf3; }
+      .dir { fill: #58a6ff; font-weight: 700; }
+      .out { fill: #8b949e; }
+      .star { fill: #d29922; }
+      .hp { fill: #bc8cff; }
+
+      /* 14s loop — command types, listing prints line-by-line like real ls */
+      .tw { animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: linear; }
+      .p1 { animation-name: p1; }
+      @keyframes p1 { 0%,2% { width: 0; animation-timing-function: steps(26); } 12%,96% { width: 270px; } 98%,100% { width: 0; } }
+
+      .fd { opacity: 0; animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: linear; }
+      .r1 { animation-name: q1; } @keyframes q1 { 0%,13% {opacity:0} 14%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r2 { animation-name: q2; } @keyframes q2 { 0%,16% {opacity:0} 17%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r3 { animation-name: q3; } @keyframes q3 { 0%,19% {opacity:0} 20%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r4 { animation-name: q4; } @keyframes q4 { 0%,22% {opacity:0} 23%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r5 { animation-name: q5; } @keyframes q5 { 0%,25% {opacity:0} 26%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r6 { animation-name: q6; } @keyframes q6 { 0%,28% {opacity:0} 29%,96% {opacity:1} 98%,100% {opacity:0} }
+      .r7 { animation-name: q7; } @keyframes q7 { 0%,34% {opacity:0} 36%,96% {opacity:1} 98%,100% {opacity:0} }
+
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="308" rx="12" class="win"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" class="bar"/>
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="68" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="26" text-anchor="middle" class="t out">eric@github: ~/projects</text>
+
+  <g class="t">
+    <g clip-path="url(#p1)">
+      <text x="28" y="70"><tspan class="prompt">$</tspan> <tspan class="cmd">ls ~/projects --featured</tspan></text>
+    </g>
+    <g class="fd r1">
+      <text x="28" y="100"><tspan class="dir">crossaudit_v4/</tspan><tspan class="out" x="315">cross-vendor generate→audit loop · 61k lines · 620+ tests</tspan></text>
+    </g>
+    <g class="fd r2">
+      <text x="28" y="128"><tspan class="dir">crossaudit/</tspan><tspan class="out" x="315">two adversarial agents, one replayable ledger</tspan></text>
+    </g>
+    <g class="fd r3">
+      <text x="28" y="156"><tspan class="dir">labscope/</tspan><tspan class="out" x="315">instrument intel · specs + live literature evidence · 仪器采购情报</tspan></text>
+    </g>
+    <g class="fd r4">
+      <text x="28" y="184"><tspan class="dir">materials-simulation-handbook/</tspan><tspan class="star" x="315">⭐3</tspan><tspan class="out"> DFT → MLIPs → MD, undergrad level</tspan></text>
+    </g>
+    <g class="fd r5">
+      <text x="28" y="212"><tspan class="dir">programming-handbook/</tspan><tspan class="out" x="315">bits &amp; binary → DS&amp;A · Python in the browser</tspan></text>
+    </g>
+    <g class="fd r6">
+      <text x="28" y="240"><tspan class="out">… and 10 more:</tspan> <tspan class="hp">zemax-mcp · nmr-ssl · xrd-ssl · perovskite-screening · matsci-env …</tspan></text>
+    </g>
+    <g class="fd r7">
+      <text x="28" y="278"><tspan class="prompt">$</tspan></text>
+      <rect x="46" y="265" width="9" height="17" fill="#e6edf3" class="cursor"/>
+    </g>
+  </g>
+</svg>
