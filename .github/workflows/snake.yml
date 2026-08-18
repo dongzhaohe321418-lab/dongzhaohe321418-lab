@@ -2,11 +2,8 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "23 */6 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write

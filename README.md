@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="github-metrics.svg" width="100%" alt="GitHub metrics — generated daily in this repo"/>
+  <img src="assets/stats.svg" width="100%" alt="GitHub stats terminal — commits, stars, repos, followers, top languages — refreshed daily"/>
 </p>
 
 <p align="center">

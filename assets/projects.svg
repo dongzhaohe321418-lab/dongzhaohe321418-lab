@@ -65,19 +65,19 @@
       <text x="28" y="70"><tspan class="prompt">$</tspan> <tspan class="cmd">ls ~/projects --featured</tspan></text>
     </g>
     <g class="fd r1">
-      <text x="28" y="100"><tspan class="dir">crossaudit_v4/</tspan><tspan class="out" x="315">cross-vendor generate→audit loop · 61k lines · 620+ tests</tspan></text>
+      <circle cx="33" cy="95" r="4" fill="#3572A5"/><text x="46" y="100"><tspan class="dir">crossaudit_v4/</tspan><tspan class="out" x="333">cross-vendor generate→audit loop · 61k lines · 620+ tests</tspan></text>
     </g>
     <g class="fd r2">
-      <text x="28" y="128"><tspan class="dir">crossaudit/</tspan><tspan class="out" x="315">two adversarial agents, one replayable ledger</tspan></text>
+      <circle cx="33" cy="123" r="4" fill="#3572A5"/><text x="46" y="128"><tspan class="dir">crossaudit/</tspan><tspan class="out" x="333">two adversarial agents, one replayable ledger</tspan></text>
     </g>
     <g class="fd r3">
-      <text x="28" y="156"><tspan class="dir">labscope/</tspan><tspan class="out" x="315">instrument intel · specs + live literature evidence · 仪器采购情报</tspan></text>
+      <circle cx="33" cy="151" r="4" fill="#3572A5"/><text x="46" y="156"><tspan class="dir">labscope/</tspan><tspan class="out" x="333">instrument intel · specs + live literature evidence · 仪器采购情报</tspan></text>
     </g>
     <g class="fd r4">
-      <text x="28" y="184"><tspan class="dir">materials-simulation-handbook/</tspan><tspan class="star" x="315">⭐3</tspan><tspan class="out"> DFT → MLIPs → MD, undergrad level</tspan></text>
+      <circle cx="33" cy="179" r="4" fill="#3572A5"/><text x="46" y="184"><tspan class="dir">materials-simulation-handbook/</tspan><tspan class="star" x="333">⭐3</tspan><tspan class="out"> DFT → MLIPs → MD, undergrad level</tspan></text>
     </g>
     <g class="fd r5">
-      <text x="28" y="212"><tspan class="dir">programming-handbook/</tspan><tspan class="out" x="315">bits &amp; binary → DS&amp;A · Python in the browser</tspan></text>
+      <circle cx="33" cy="207" r="4" fill="#e34c26"/><text x="46" y="212"><tspan class="dir">programming-handbook/</tspan><tspan class="out" x="333">bits &amp; binary → DS&amp;A · Python in the browser</tspan></text>
     </g>
     <g class="fd r6">
       <text x="28" y="240"><tspan class="out">… and 10 more:</tspan> <tspan class="hp">zemax-mcp · nmr-ssl · xrd-ssl · perovskite-screening · matsci-env …</tspan></text>
