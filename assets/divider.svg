@@ -1,0 +1,20 @@
+<svg width="900" height="26" viewBox="0 0 900 26" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <defs>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="70%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .flow { stroke-dasharray: 3 18; stroke-linecap: round; animation: fl 1.4s linear infinite; }
+      @keyframes fl { to { stroke-dashoffset: -21; } }
+      .node { animation: pl 2.2s ease-in-out infinite; }
+      @keyframes pl { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <line x1="20" y1="13" x2="880" y2="13" stroke="#21262d" stroke-width="1"/>
+  <line x1="20" y1="13" x2="880" y2="13" stroke="url(#edge)" stroke-width="2" class="flow"/>
+  <rect x="444" y="7" width="12" height="12" transform="rotate(45 450 13)" fill="#0d1117" stroke="#58a6ff" stroke-width="1.5" class="node"/>
+</svg>

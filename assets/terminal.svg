@@ -4,7 +4,27 @@
     <clipPath id="c2"><rect class="tw t2" x="28" y="84" height="24" width="0"/></clipPath>
     <clipPath id="c3"><rect class="tw t3" x="28" y="112" height="24" width="0"/></clipPath>
     <clipPath id="c8"><rect class="tw t8" x="28" y="204" height="24" width="0"/></clipPath>
+    <clipPath id="wc"><rect x="1" y="1" width="898" height="298" rx="12"/></clipPath>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/><stop offset="50%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="crtg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8bb4ff" stop-opacity="0"/><stop offset="50%" stop-color="#8bb4ff" stop-opacity=".045"/><stop offset="100%" stop-color="#8bb4ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1b2230"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#58a6ff" flood-opacity="0.15"/>
+    </filter>
+    <filter id="passglow" x="-30%" y="-60%" width="160%" height="220%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.5" flood-color="#3fb950" flood-opacity="0.55"/>
+    </filter>
     <style>
+      .pulse2 { animation: pl2 2.4s ease-in-out infinite; }
+      @keyframes pl2 { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+      .crt { animation: crt 8s linear infinite; }
+      @keyframes crt { from { transform: translateY(-80px); } to { transform: translateY(380px); } }
       .win { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
       .bar { fill: #161b22; }
       .t { font: 500 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; }
@@ -71,8 +91,13 @@
   </defs>
 
   <!-- window chrome -->
-  <rect x="1" y="1" width="898" height="298" rx="12" class="win"/>
+  <rect x="1" y="1" width="898" height="298" rx="12" class="win" filter="url(#glow)"/>
+  <rect x="1" y="1" width="898" height="298" rx="12" fill="url(#grid)" opacity=".55"/>
+  <rect x="1" y="1" width="898" height="298" rx="12" fill="none" stroke="url(#edge)" opacity=".4"/>
+  <g clip-path="url(#wc)"><rect x="1" y="0" width="898" height="70" fill="url(#crtg)" class="crt"/></g>
   <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" class="bar"/>
+  <circle cx="856" cy="21" r="4" fill="#3fb950" class="pulse2"/>
+  <text x="866" y="25" class="t prompt" style="font-size:11px">live</text>
   <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
   <circle cx="46" cy="21" r="6" fill="#febc2e"/>
   <circle cx="68" cy="21" r="6" fill="#28c840"/>
@@ -93,16 +118,16 @@
       <text x="52" y="160"><tspan class="ok">✓</tspan> <tspan class="dim">data integrity</tspan></text>
     </g>
     <g class="fd s5">
-      <text x="330" y="160"><tspan class="ok">✓</tspan> <tspan class="dim">method reproducible</tspan></text>
+      <text x="390" y="160"><tspan class="ok">✓</tspan> <tspan class="dim">method reproducible</tspan></text>
     </g>
     <g class="fd s6">
       <text x="52" y="188"><tspan class="ok">✓</tspan> <tspan class="dim">receipts cryptographically bound</tspan></text>
     </g>
     <g class="fd s7">
-      <text x="330" y="188"><tspan class="ok">✓</tspan> <tspan class="dim">ledger consistent</tspan></text>
+      <text x="390" y="188"><tspan class="ok">✓</tspan> <tspan class="dim">ledger consistent</tspan></text>
     </g>
     <g clip-path="url(#c8)">
-      <text x="28" y="222"><tspan class="pass">AUDIT: PASS</tspan> <tspan class="dim">· receipt c52c4df sealed in git</tspan></text>
+      <text x="28" y="222" filter="url(#passglow)"><tspan class="pass">AUDIT: PASS</tspan> <tspan class="dim">· receipt c52c4df sealed in git</tspan></text>
     </g>
     <g class="fd s9">
       <text x="28" y="258"><tspan class="prompt">$</tspan></text>

@@ -1,7 +1,24 @@
 <svg width="900" height="310" viewBox="0 0 900 310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ls ~/projects: crossaudit_v4, crossaudit, labscope, materials-simulation-handbook, programming-handbook">
   <defs>
     <clipPath id="p1"><rect class="tw p1" x="28" y="52" height="24" width="0"/></clipPath>
+    <clipPath id="wc"><rect x="1" y="1" width="898" height="308" rx="12"/></clipPath>
+    <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff"/><stop offset="50%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="crtg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8bb4ff" stop-opacity="0"/><stop offset="50%" stop-color="#8bb4ff" stop-opacity=".045"/><stop offset="100%" stop-color="#8bb4ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1b2230"/>
+    </pattern>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#58a6ff" flood-opacity="0.15"/>
+    </filter>
     <style>
+      .pulse2 { animation: pl2 2.4s ease-in-out infinite; }
+      @keyframes pl2 { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+      .crt { animation: crt 8s linear infinite; }
+      @keyframes crt { from { transform: translateY(-80px); } to { transform: translateY(390px); } }
       .win { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
       .bar { fill: #161b22; }
       .t { font: 500 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; }
@@ -31,8 +48,13 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="898" height="308" rx="12" class="win"/>
+  <rect x="1" y="1" width="898" height="308" rx="12" class="win" filter="url(#glow)"/>
+  <rect x="1" y="1" width="898" height="308" rx="12" fill="url(#grid)" opacity=".55"/>
+  <rect x="1" y="1" width="898" height="308" rx="12" fill="none" stroke="url(#edge)" opacity=".4"/>
+  <g clip-path="url(#wc)"><rect x="1" y="0" width="898" height="70" fill="url(#crtg)" class="crt"/></g>
   <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" class="bar"/>
+  <circle cx="856" cy="21" r="4" fill="#3fb950" class="pulse2"/>
+  <text x="866" y="25" class="t prompt" style="font-size:11px">live</text>
   <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
   <circle cx="46" cy="21" r="6" fill="#febc2e"/>
   <circle cx="68" cy="21" r="6" fill="#28c840"/>
