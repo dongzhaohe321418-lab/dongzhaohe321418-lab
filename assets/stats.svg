@@ -1,4 +1,4 @@
-<svg width="900" height="330" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 898 commits, 15 stars, 17 public repos, 4 followers">
+<svg width="900" height="330" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats: 1438 commits, 15 stars, 18 public repos, 4 followers">
   <defs>
     <clipPath id="s1"><rect class="tw s1" x="28" y="52" height="24" width="0"/></clipPath>
     <clipPath id="s2"><rect class="tw s2" x="28" y="192" height="24" width="0"/></clipPath>
@@ -62,16 +62,16 @@
     <g clip-path="url(#s1)">
       <text x="28" y="70"><tspan class="prompt">$</tspan> <tspan class="cmd">gh stats --user dongzhaohe321418-lab</tspan></text>
     </g>
-    <g class="fd o0"><rect x="28" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="28" y="88" width="200" height="3" rx="1.5" fill="#58a6ff" opacity=".8"/><text x="128" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #58a6ff">898</text><text x="128" y="151" text-anchor="middle" class="out" style="font-size:12.5px">commits · 12 mo</text></g>
+    <g class="fd o0"><rect x="28" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="28" y="88" width="200" height="3" rx="1.5" fill="#58a6ff" opacity=".8"/><text x="128" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #58a6ff">1438</text><text x="128" y="151" text-anchor="middle" class="out" style="font-size:12.5px">commits · 12 mo</text></g>
     <g class="fd o1"><rect x="244" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="244" y="88" width="200" height="3" rx="1.5" fill="#d29922" opacity=".8"/><text x="344" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #d29922">15</text><text x="344" y="151" text-anchor="middle" class="out" style="font-size:12.5px">stars earned</text></g>
-    <g class="fd o2"><rect x="460" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="460" y="88" width="200" height="3" rx="1.5" fill="#bc8cff" opacity=".8"/><text x="560" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #bc8cff">17</text><text x="560" y="151" text-anchor="middle" class="out" style="font-size:12.5px">public repos</text></g>
+    <g class="fd o2"><rect x="460" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="460" y="88" width="200" height="3" rx="1.5" fill="#bc8cff" opacity=".8"/><text x="560" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #bc8cff">18</text><text x="560" y="151" text-anchor="middle" class="out" style="font-size:12.5px">public repos</text></g>
     <g class="fd o3"><rect x="676" y="88" width="200" height="76" rx="8" fill="#161b22" stroke="#30363d"/><rect x="676" y="88" width="200" height="3" rx="1.5" fill="#3fb950" opacity=".8"/><text x="776" y="128" text-anchor="middle" style="font: 700 30px 'SFMono-Regular', Consolas, monospace; fill: #3fb950">4</text><text x="776" y="151" text-anchor="middle" class="out" style="font-size:12.5px">followers</text></g>
     <g clip-path="url(#s2)">
       <text x="28" y="210"><tspan class="prompt">$</tspan> <tspan class="cmd">gh langs --top 3</tspan></text>
     </g>
-    <g class="fd l0"><text x="28" y="240"><tspan class="cmd">Python</tspan><tspan class="out" x="676"> 75%</tspan></text><rect x="360" y="227" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="227" width="225" height="12" rx="3" fill="#3572A5"/></g>
-    <g class="fd l1"><text x="28" y="268"><tspan class="cmd">TypeScript</tspan><tspan class="out" x="676">  6%</tspan></text><rect x="360" y="255" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="255" width="19" height="12" rx="3" fill="#3178c6"/></g>
-    <g class="fd l2"><text x="28" y="296"><tspan class="cmd">Shell</tspan><tspan class="out" x="676">  6%</tspan></text><rect x="360" y="283" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="283" width="19" height="12" rx="3" fill="#89e051"/></g>
+    <g class="fd l0"><text x="28" y="240"><tspan class="cmd">Python</tspan><tspan class="out" x="676"> 76%</tspan></text><rect x="360" y="227" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="227" width="229" height="12" rx="3" fill="#3572A5"/></g>
+    <g class="fd l1"><text x="28" y="268"><tspan class="cmd">TypeScript</tspan><tspan class="out" x="676">  6%</tspan></text><rect x="360" y="255" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="255" width="18" height="12" rx="3" fill="#3178c6"/></g>
+    <g class="fd l2"><text x="28" y="296"><tspan class="cmd">Shell</tspan><tspan class="out" x="676">  6%</tspan></text><rect x="360" y="283" width="300" height="12" rx="3" fill="#21262d"/><rect x="360" y="283" width="18" height="12" rx="3" fill="#89e051"/></g>
     <g class="fd o9">
       <text x="28" y="306"><tspan class="prompt">$</tspan></text>
       <rect x="46" y="293" width="9" height="17" fill="#e6edf3" class="cursor"/>
