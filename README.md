@@ -16,7 +16,7 @@
 
 <div align="center">
 
-*↑ [CrossAudit](https://github.com/dongzhaohe321418-lab/crossaudit-app) — one model works, a different vendor's model audits, every claim ledgered in Git.*
+*↑ [CrossAudit](https://github.com/dongzhaohe321418-lab/crossaudit-harness) — one model builds, a different vendor's model reviews, deterministic checks and signed receipts prove it.*
 
 </div>
 
@@ -25,12 +25,13 @@
 </p>
 
 <p align="center">
-  <img src="assets/projects.svg" width="100%" alt="ls ~/projects: crossaudit_v4, crossaudit, labscope, materials-simulation-handbook, programming-handbook"/>
+  <img src="assets/projects.svg" width="100%" alt="tree ~/projects: the CrossAudit stack, ML for science, handbooks and environments"/>
 </p>
 
 <div align="center">
 
-`cd` [crossaudit-app](https://github.com/dongzhaohe321418-lab/crossaudit-app) · [crossaudit_v4](https://github.com/dongzhaohe321418-lab/crossaudit_v4) · [crossaudit](https://github.com/dongzhaohe321418-lab/crossaudit) · [zemax-mcp](https://github.com/dongzhaohe321418-lab/zemax-mcp) · [nmr-ssl](https://github.com/dongzhaohe321418-lab/nmr-ssl) · [xrd-ssl](https://github.com/dongzhaohe321418-lab/xrd-ssl) · [perovskite-screening](https://github.com/dongzhaohe321418-lab/perovskite-screening) · [labscope](https://github.com/dongzhaohe321418-lab/labscope)
+`cd` [crossaudit-harness](https://github.com/dongzhaohe321418-lab/crossaudit-harness) · [crossaudit_evidence_lab](https://github.com/dongzhaohe321418-lab/crossaudit_evidence_lab) · [crossaudit-app](https://github.com/dongzhaohe321418-lab/crossaudit-app) · [crossaudit_v4](https://github.com/dongzhaohe321418-lab/crossaudit_v4)
+[nmr-ssl](https://github.com/dongzhaohe321418-lab/nmr-ssl) · [xrd-ssl](https://github.com/dongzhaohe321418-lab/xrd-ssl) · [perovskite-screening](https://github.com/dongzhaohe321418-lab/perovskite-screening) · [labscope](https://github.com/dongzhaohe321418-lab/labscope) · [zemax-mcp](https://github.com/dongzhaohe321418-lab/zemax-mcp)
 [materials-simulation-handbook](https://github.com/dongzhaohe321418-lab/materials-simulation-handbook) · [programming-handbook](https://github.com/dongzhaohe321418-lab/programming-handbook) · [matsci-env](https://github.com/dongzhaohe321418-lab/matsci-env) · [photo-portfolio](https://github.com/dongzhaohe321418-lab/photo-portfolio) · [all repos →](https://github.com/dongzhaohe321418-lab?tab=repositories)
 
 </div>

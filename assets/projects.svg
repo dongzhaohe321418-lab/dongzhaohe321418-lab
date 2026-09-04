@@ -1,7 +1,7 @@
-<svg width="900" height="538" viewBox="0 0 900 538" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="tree ~/projects: crossaudit-app, crossaudit_v4, crossaudit, zemax-mcp, nmr-ssl, xrd-ssl, perovskite-screening, labscope, materials-simulation-handbook, programming-handbook, matsci-env, photo-portfolio">
+<svg width="900" height="564" viewBox="0 0 900 564" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="tree ~/projects: crossaudit-harness, crossaudit_evidence_lab, crossaudit-app, crossaudit_v4, nmr-ssl, xrd-ssl, perovskite-screening, labscope, zemax-mcp, materials-simulation-handbook, programming-handbook, matsci-env, photo-portfolio">
   <defs>
     <clipPath id="p1"><rect class="tw p1" x="28" y="52" height="24" width="0"/></clipPath>
-    <clipPath id="wc"><rect x="1" y="1" width="898" height="536" rx="12"/></clipPath>
+    <clipPath id="wc"><rect x="1" y="1" width="898" height="562" rx="12"/></clipPath>
     <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#58a6ff"/><stop offset="50%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#3fb950"/>
     </linearGradient>
@@ -18,7 +18,7 @@
       .pulse2 { animation: pl2 2.4s ease-in-out infinite; }
       @keyframes pl2 { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
       .crt { animation: crt 9s linear infinite; }
-      @keyframes crt { from { transform: translateY(-80px); } to { transform: translateY(618px); } }
+      @keyframes crt { from { transform: translateY(-80px); } to { transform: translateY(644px); } }
       .win { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
       .bar { fill: #161b22; }
       .t { font: 500 15px 'SFMono-Regular', 'Fira Code', Consolas, monospace; }
@@ -46,9 +46,9 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="898" height="536" rx="12" class="win" filter="url(#glow)"/>
-  <rect x="1" y="1" width="898" height="536" rx="12" fill="url(#grid)" opacity=".55"/>
-  <rect x="1" y="1" width="898" height="536" rx="12" fill="none" stroke="url(#edge)" opacity=".4"/>
+  <rect x="1" y="1" width="898" height="562" rx="12" class="win" filter="url(#glow)"/>
+  <rect x="1" y="1" width="898" height="562" rx="12" fill="url(#grid)" opacity=".55"/>
+  <rect x="1" y="1" width="898" height="562" rx="12" fill="none" stroke="url(#edge)" opacity=".4"/>
   <g clip-path="url(#wc)"><rect x="1" y="0" width="898" height="70" fill="url(#crtg)" class="crt"/></g>
   <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v27 h-898 z" class="bar"/>
   <circle cx="856" cy="21" r="4" fill="#3fb950" class="pulse2"/>
@@ -63,36 +63,37 @@
       <text x="28" y="70"><tspan class="prompt">$</tspan> <tspan class="cmd">tree ~/projects --featured</tspan></text>
     </g>
 
-    <!-- group 1: AI infrastructure -->
+    <!-- group 1: the CrossAudit stack -->
     <g class="fd b1">
-      <text x="28" y="102" class="grp">ai-infrastructure/</text>
-      <text x="28" y="128"><tspan class="tree">├─</tspan></text><circle cx="70" cy="123" r="4" fill="#3572A5"/><text x="82" y="128"><tspan class="dir">crossaudit-app</tspan><tspan class="star" x="360">latest</tspan><tspan class="out" x="425">cross-vendor AI audit · macOS app + site</tspan></text>
-      <text x="28" y="154"><tspan class="tree">├─</tspan></text><circle cx="70" cy="149" r="4" fill="#3572A5"/><text x="82" y="154"><tspan class="dir">crossaudit_v4</tspan><tspan class="out" x="380">the engine · 61k lines · 620+ tests · receipts</tspan></text>
-      <text x="28" y="180"><tspan class="tree">├─</tspan></text><circle cx="70" cy="175" r="4" fill="#3572A5"/><text x="82" y="180"><tspan class="dir">crossaudit</tspan><tspan class="out" x="380">where it began · two adversarial agents, one ledger</tspan></text>
-      <text x="28" y="206"><tspan class="tree">└─</tspan></text><circle cx="70" cy="201" r="4" fill="#DA5B0B"/><text x="82" y="206"><tspan class="dir">zemax-mcp</tspan><tspan class="out" x="380">Ansys Zemax OpticStudio driven by AI agents · MCP</tspan></text>
+      <text x="28" y="102" class="grp">crossaudit-stack/</text>
+      <text x="28" y="128"><tspan class="tree">├─</tspan></text><circle cx="70" cy="123" r="4" fill="#3572A5"/><text x="82" y="128"><tspan class="dir">crossaudit-harness</tspan><tspan class="star" x="400">latest</tspan><tspan class="out" x="465">one builds, another reviews · macOS app + CLI</tspan></text>
+      <text x="28" y="154"><tspan class="tree">├─</tspan></text><circle cx="70" cy="149" r="4" fill="#3572A5"/><text x="82" y="154"><tspan class="dir">crossaudit_evidence_lab</tspan><tspan class="out" x="400">evidence-routed, tool-first audit engine</tspan></text>
+      <text x="28" y="180"><tspan class="tree">├─</tspan></text><circle cx="70" cy="175" r="4" fill="#3572A5"/><text x="82" y="180"><tspan class="dir">crossaudit-app</tspan><tspan class="out" x="400">local-first audit · macOS app + companion site</tspan></text>
+      <text x="28" y="206"><tspan class="tree">└─</tspan></text><circle cx="70" cy="201" r="4" fill="#3572A5"/><text x="82" y="206"><tspan class="dir">crossaudit_v4</tspan><tspan class="out" x="400">the engine · 61k lines · 620+ tests · receipts</tspan></text>
     </g>
 
     <!-- group 2: ML for science -->
     <g class="fd b2">
       <text x="28" y="238" class="grp">ml-for-science/</text>
-      <text x="28" y="264"><tspan class="tree">├─</tspan></text><circle cx="70" cy="259" r="4" fill="#3572A5"/><text x="82" y="264"><tspan class="dir">nmr-ssl</tspan><tspan class="out" x="380">sort-match SSL for NMR shift prediction · conformal</tspan></text>
-      <text x="28" y="290"><tspan class="tree">├─</tspan></text><circle cx="70" cy="285" r="4" fill="#3572A5"/><text x="82" y="290"><tspan class="dir">xrd-ssl</tspan><tspan class="out" x="380">self-supervised XRD pattern decoding</tspan></text>
-      <text x="28" y="316"><tspan class="tree">├─</tspan></text><circle cx="70" cy="311" r="4" fill="#3572A5"/><text x="82" y="316"><tspan class="dir">perovskite-screening</tspan><tspan class="out" x="380">ML screening + immutable audit artifacts</tspan></text>
-      <text x="28" y="342"><tspan class="tree">└─</tspan></text><circle cx="70" cy="337" r="4" fill="#3572A5"/><text x="82" y="342"><tspan class="dir">labscope</tspan><tspan class="out" x="380">instrument intel · live literature evidence · 仪器采购情报</tspan></text>
+      <text x="28" y="264"><tspan class="tree">├─</tspan></text><circle cx="70" cy="259" r="4" fill="#3572A5"/><text x="82" y="264"><tspan class="dir">nmr-ssl</tspan><tspan class="out" x="400">sort-match SSL for NMR shift prediction · conformal</tspan></text>
+      <text x="28" y="290"><tspan class="tree">├─</tspan></text><circle cx="70" cy="285" r="4" fill="#3572A5"/><text x="82" y="290"><tspan class="dir">xrd-ssl</tspan><tspan class="out" x="400">self-supervised XRD pattern decoding</tspan></text>
+      <text x="28" y="316"><tspan class="tree">├─</tspan></text><circle cx="70" cy="311" r="4" fill="#3572A5"/><text x="82" y="316"><tspan class="dir">perovskite-screening</tspan><tspan class="out" x="400">ML screening + immutable audit artifacts</tspan></text>
+      <text x="28" y="342"><tspan class="tree">├─</tspan></text><circle cx="70" cy="337" r="4" fill="#3572A5"/><text x="82" y="342"><tspan class="dir">labscope</tspan><tspan class="out" x="400">instrument intel · live literature evidence</tspan></text>
+      <text x="28" y="368"><tspan class="tree">└─</tspan></text><circle cx="70" cy="363" r="4" fill="#DA5B0B"/><text x="82" y="368"><tspan class="dir">zemax-mcp</tspan><tspan class="out" x="400">eye-illumination experiments · OpticStudio + MCP</tspan></text>
     </g>
 
     <!-- group 3: handbooks, env, creative -->
     <g class="fd b3">
-      <text x="28" y="374" class="grp">handbooks-env-creative/</text>
-      <text x="28" y="400"><tspan class="tree">├─</tspan></text><circle cx="70" cy="395" r="4" fill="#3572A5"/><text x="82" y="400"><tspan class="dir">materials-simulation-handbook</tspan><tspan class="star" x="380">⭐3</tspan><tspan class="out"> DFT → MLIPs → MD</tspan></text>
-      <text x="28" y="426"><tspan class="tree">├─</tspan></text><circle cx="70" cy="421" r="4" fill="#e34c26"/><text x="82" y="426"><tspan class="dir">programming-handbook</tspan><tspan class="out" x="380">zero-foundation CS · Python in the browser</tspan></text>
-      <text x="28" y="452"><tspan class="tree">├─</tspan></text><circle cx="70" cy="447" r="4" fill="#89e051"/><text x="82" y="452"><tspan class="dir">matsci-env</tspan><tspan class="out" x="380">3 commands to a DFT / MLIP / MD stack</tspan></text>
-      <text x="28" y="478"><tspan class="tree">└─</tspan></text><circle cx="70" cy="473" r="4" fill="#3178c6"/><text x="82" y="478"><tspan class="dir">photo-portfolio</tspan><tspan class="out" x="380">Next.js · glassmorphism · cinematic scroll</tspan></text>
+      <text x="28" y="400" class="grp">handbooks-env-creative/</text>
+      <text x="28" y="426"><tspan class="tree">├─</tspan></text><circle cx="70" cy="421" r="4" fill="#3572A5"/><text x="82" y="426"><tspan class="dir">materials-simulation-handbook</tspan><tspan class="star" x="400">⭐3</tspan><tspan class="out" x="465">DFT → MLIPs → MD</tspan></text>
+      <text x="28" y="452"><tspan class="tree">├─</tspan></text><circle cx="70" cy="447" r="4" fill="#e34c26"/><text x="82" y="452"><tspan class="dir">programming-handbook</tspan><tspan class="out" x="400">zero-foundation CS · Python in the browser</tspan></text>
+      <text x="28" y="478"><tspan class="tree">├─</tspan></text><circle cx="70" cy="473" r="4" fill="#89e051"/><text x="82" y="478"><tspan class="dir">matsci-env</tspan><tspan class="out" x="400">3 commands to a DFT / MLIP / MD stack</tspan></text>
+      <text x="28" y="504"><tspan class="tree">└─</tspan></text><circle cx="70" cy="499" r="4" fill="#3178c6"/><text x="82" y="504"><tspan class="dir">photo-portfolio</tspan><tspan class="out" x="400">Next.js · glassmorphism · cinematic scroll</tspan></text>
     </g>
 
     <g class="fd b4">
-      <text x="28" y="516"><tspan class="prompt">$</tspan></text>
-      <rect x="46" y="503" width="9" height="17" fill="#e6edf3" class="cursor"/>
+      <text x="28" y="542"><tspan class="prompt">$</tspan></text>
+      <rect x="46" y="529" width="9" height="17" fill="#e6edf3" class="cursor"/>
     </g>
   </g>
 </svg>
